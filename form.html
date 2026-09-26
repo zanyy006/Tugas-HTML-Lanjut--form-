@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+    <h2>Form Registrasi</h2>
+
+    <fieldset>
+        <legend>Biodata</legend>
+
+        <table border="0" cellpadding="1" cellspacing="0">
+            <tr>
+                <td>Nama Mahasiswa</td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="Nama Anda">
+                </td>
+            </tr>
+
+            <tr>
+                <td>No Induk Mahasiswa (NIM)</td>
+                <td>:</td>
+                <td>
+                    <input type="text" value="123456789">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="left">Alamat Mahasiswa</td>
+                <td align="left">:</td>
+                <td>
+                    <textarea rows="4" cols="30" placeholder="Alamat Anda"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <select name="tanggal">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                    </select>
+
+                    <select name="bulan">
+                        <option value="Januari">Januari</option>
+                        <option value="Februari">Februari</option>
+                        <option value="Maret">Maret</option>
+                    </select>
+
+                    <select name="tahun">
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                        <input type="radio" name="pilih" value="pria">Pria
+                        <input type="radio" name="pilih" value="wanita">Wanita
+                </td>
+            </tr>
+
+            <tr>
+                <td>Upload Foto</td>
+                <td>:</td>
+                <td>
+                    <input type="file" name="foto">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="left">URL Website</td>
+                <td align="left">:</td>
+                <td>
+                    <textarea rows="1" cols="32" placeholder="URL Website Anda"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Perguruan Tinggi</td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="perguruan">
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Info Akun</legend>
+        <table border="0" cellpadding="1" cellspacing="0">
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="Email Anda">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td>
+                    <input type="text" placeholder="Username Anda">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" placeholder="Password Anda">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ulangi Password</td>
+                <td>:</td>
+                <td>
+                    <input type="password" placeholder="Password Anda">
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Kemampuan Dasar</legend>
+        <table border="0" cellpadding="1" cellspacing="0">
+            <tr>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="HTML">HTML
+                </td>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="CSS">CSS
+                </td>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="Javascript">Javascript
+                </td>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="PHP">PHP
+                </td>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="MySQL">MySQL
+                </td>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="Laravel">Laravel
+                </td>
+                <td>
+                    <input type="checkbox" name="kemampuan" value="React Native">React Native 
+                </td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Simpan">
+        <input type="button" value="Button">
+    </p>
+
+</body>
+</html>
